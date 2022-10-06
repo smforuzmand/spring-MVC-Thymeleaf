@@ -1,0 +1,33 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document Title</title>
+
+    <!-- Resources -->
+    <!-- Fontawesome icon library Resource -->
+    <link rel="stylesheet" th:href="@{/webjars/fontawesome__fontawesome-free/css/all.css}">
+
+    <!-- Bootstrap Webjar Resource -->
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css} "/>
+    <script defer th:src="@{/webjars/jquery/jquery.min.js}"></script>
+    <script defer th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+    <script defer th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</head>
+<body>
+ <div>
+     <h1> This part includes a Picture </h1>
+    <p th:text="#{contact.text}">
+        Lorem ipsum dolor sit amet, consectetur adipisicing.
+    </p>
+    <img src="IMG/photo_2022-06-10_11-04-54.jpg">
+ </div>
+ <div>
+    <h1>This part contains a form</h1>
+
+    <form action=""></form>
+ </div>
+
+
+</body>
+</html>
