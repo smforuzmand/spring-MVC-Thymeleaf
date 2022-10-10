@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Document Title</title>
@@ -13,24 +14,24 @@
     <script defer th:src="@{/webjars/jquery/jquery.min.js}"></script>
     <script defer th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
     <script defer th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</head>
 <body>
-<header class="header">
-    <h1 class="header-title"> This is the first MVC project </h1>
-    <p th:text="#{index.text}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quibusdam.</p>
-    <ul>
-        <li>
-            <link rel="stylesheet" href="###">
-        </li>
-        <li>
-            <link rel="stylesheet" href="###">
-        </li>
-        <li>
-            <link rel="stylesheet" href="###">
-        </li>
-    </ul>
+<div class="container" >
+    <div class="card mb-3">
+        <form method="post">
+            <label for="name">text message</label>
+            <input type="text" id="name" name="name">
 
-</header>
+        </form>
+
+    </div>
 
 
+</div>
+
+
+<div>
+
+</div>
 </body>
 </html>
